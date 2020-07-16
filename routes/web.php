@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('aaa','TestController@aaa');
+Route::get('Test','TestController@Test');

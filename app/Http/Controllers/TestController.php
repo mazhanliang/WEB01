@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Redis;
 
 class TestController extends Controller
 {
-     public function aaa()
+     public function Test()
      {
          $aa = DB::table('p_users')->first();
          var_dump($aa);
